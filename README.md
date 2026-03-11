@@ -73,6 +73,23 @@ Functions Used:
 - DATEDIFF() – Returns the number of days between two dates.
 - CURDATE() – Returns the current system date.
 
+🔹 Day 9 – SQL Functions Practice
+
+This project contains SQL queries that demonstrate the use of common SQL functions for working with employee data.
+
+Functions Used
+
+- UPPER() – Converts text to uppercase.
+- SUBSTRING() – Extracts part of a string.
+- ROUND() – Rounds a number to a specified decimal value.
+- YEAR() – Extracts the year from a date.
+- LENGTH() – Returns the number of characters in a string.
+- RIGHT() – Returns characters from the right side of a string.
+- FORMAT() – Formats numbers with decimal places.
+- IF() – Returns a value based on a condition.
+- TIMESTAMPDIFF() – Calculates the difference between two dates.
+
+
 🛠️ Tools Used
 Database: MySQL
 Environment: GitHub Web Editor / VS Code

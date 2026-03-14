@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>QuickBite Customer Retention Demo</title>
+
+<style>
+body{
+font-family: Arial;
+background:#f2f2f2;
+text-align:center;
+}
+
+.container{
+background:white;
+padding:20px;
+width:350px;
+margin:40px auto;
+border-radius:10px;
+box-shadow:0px 0px 10px gray;
+}
+
+h1{
+color:#ff6b00;
+}
+
+button{
+padding:10px;
+margin:10px;
+background:#ff6b00;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+select, textarea{
+width:90%;
+padding:8px;
+margin:8px;
+}
+
+textarea{
+height:60px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>QuickBite Food Ordering</h1>
+
+<div class="container">
+
+<h3>Select Food</h3>
+<select id="food">
+<option>Pizza</option>
+<option>Burger</option>
+<option>Biryani</option>
+<option>Sandwich</option>
+</select>
+
+<button onclick="orderFood()">Place Order</button>
+
+<h3>Order Status</h3>
+<p id="status">No order placed</p>
+
+<h3>Customer Feedback</h3>
+<textarea id="feedback" placeholder="Write your feedback"></textarea>
+<br>
+<button onclick="submitFeedback()">Submit Feedback</button>
+
+</div>
+
+<script>
+
+function orderFood(){
+let food=document.getElementById("food").value;
+document.getElementById("status").innerText =
+"Order placed for " + food + ". Food is being prepared.";
+}
+
+function submitFeedback(){
+alert("Thank you for your feedback!");
+document.getElementById("feedback").value="";
+}
+
+</script>
+
+</body>
+</html>

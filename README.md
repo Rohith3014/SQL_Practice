@@ -7,7 +7,7 @@ Hi!!! 👋 I am currently learning SQL step-by-step. This repository serves as a
 🔹 Day 1: Foundation & Structure
 Database Management: Creating a new database and setting the context using USE database_name.
 Table Creation: Building table structures with appropriate data types.
-Schema Evolution: Using ALTER TABLE to modify the structure of tables.
+Schema Evolution: Using ALTER TABLE to modify the structure of tables. 
 
 - ADD new columns.
 - MODIFY existing column definitions.

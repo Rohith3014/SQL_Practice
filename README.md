@@ -173,6 +173,47 @@ Topics covered:
 - MAX() and AVG()
 - LIMIT
 - Filtering and sorting
+
+
+🔹 Day 20 – SQL Joins & Interview Practice
+Topics covered:
+
+- INNER JOIN, LEFT JOIN, RIGHT JOIN
+- Combining multiple tables
+- GROUP BY with JOIN
+- HAVING clause with JOIN
+- Subqueries with JOIN
+- Finding highest and second highest values
+- Real-world employee & department analysis
+
+---
+
+🔹 Day 21 – SQL Conditional Logic Practice
+Topics covered:
+
+- CASE statement
+- Conditional categorization (salary, experience)
+- Aggregate functions (SUM, AVG, MAX)
+- GROUP BY
+- Subqueries
+- WHERE filtering
+- ORDER BY sorting
+- LIKE pattern matching
+
+---
+
+🔹 Day 22 – SQL Advanced Joins & Analysis
+Topics covered:
+
+- INNER JOIN and LEFT JOIN
+- Finding customers without orders
+- GROUP BY with JOIN
+- HAVING clause
+- Aggregate functions (SUM, AVG, COUNT)
+- Subqueries for comparison
+- Sorting and ranking data
+- Real-world customer & orders analysis
+
   
 🛠️ Tools Used
 Database: MySQL

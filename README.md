@@ -1,220 +1,250 @@
-" The goal is to turn data into information, and information into insight. "
+📊 SQL Learning Journey
 
-Hi!!! 👋 I am currently learning SQL step-by-step. This repository serves as a live documentation of my progress, scripts, and daily learnings.
+«"The goal is to turn data into information, and information into insight."»
+
+Hi!!! 👋
+I am currently learning SQL step-by-step. This repository serves as a live documentation of my progress, scripts, and daily learnings.
+
+---
 
 📅 Learning Roadmap
 
-🔹 Day 1: Foundation & Structure
-Database Management: Creating a new database and setting the context using USE database_name.
-Table Creation: Building table structures with appropriate data types.
-Schema Evolution: Using ALTER TABLE to modify the structure of tables. 
+---
 
-- ADD new columns.
-- MODIFY existing column definitions.
-- DROP unnecessary columns.
+🔹 Day 1: Foundation & Structure
+
+- Learned how to create a database using "CREATE DATABASE"
+- Used "USE" to select and work inside a database
+- Created tables using "CREATE TABLE"
+- Modified table structure using "ALTER TABLE"
+- Practiced adding, modifying, and deleting columns
+
+---
 
 🔹 Day 2: Data Entry
-Populating Tables: Learning how to add data using the INSERT INTO command.
-Efficiency: Practicing methods to insert a single row and multiple rows in one query.
+
+- Learned how to insert data using "INSERT INTO"
+- Practiced inserting single row and multiple rows
+- Understood how to efficiently populate tables
+
+---
 
 🔹 Day 3: Data Retrieval & Filtering
-Basic Queries: Retrieving data using SELECT * and selecting specific columns.
-Sorting: Organizing results with ORDER BY in ascending and descending order.
-Filtering: Using the WHERE clause to retrieve specific records.
-Logic: Combining conditions using AND, OR, and NOT operators.
 
-🔹 Day 4: Data Manipulation & Refinement
-Uniqueness: Using DISTINCT to remove duplicate values from results.
-Updates: Modifying existing records using UPDATE ... SET ... WHERE.
-Deletion: Removing records safely using DELETE FROM ... WHERE.
+- Retrieved data using "SELECT"
+- Filtered records using "WHERE"
+- Sorted data using "ORDER BY"
+- Applied logical operators: "AND", "OR", "NOT"
+
+---
+
+🔹 Day 4: Data Manipulation
+
+- Removed duplicate values using "DISTINCT"
+- Updated records using "UPDATE"
+- Deleted records using "DELETE"
+- Practiced safe data modification
+
+---
 
 🔹 Day 5: Data Aggregation & Analysis
-Aggregate Functions: Performing calculations on data using SQL functions.
 
-- COUNT() – Counting the number of records.
-- SUM() – Calculating the total of numeric values.
-- AVG() – Finding the average value.
-- MAX() – Identifying the highest value in a column.
-- MIN() – Identifying the lowest value in a column.
-  Grouping Data: Using GROUP BY to organize rows into meaningful groups.
-  Filtering Groups: Applying conditions on grouped data using the HAVING clause.
+- Used aggregate functions like "COUNT()", "SUM()", "AVG()", "MAX()", "MIN()"
+- Grouped data using "GROUP BY"
+- Filtered grouped data using "HAVING"
+- Performed basic data analysis
+
+---
 
 🔹 Day 6: Data Integrity with Constraints
-Primary Key: Ensures each record in a table is unique and cannot contain NULL values.
- - NOT NULL: Ensures a column must always contain a value.
- - UNIQUE: Prevents duplicate values in a column.
- - DEFAULT: Assigns a predefined value automatically if no value is provided during insertion.
-Practice Focus: Creating tables with constraints and testing them by inserting valid and invalid data to understand how databases enforce data integrity.
+
+- Learned about constraints to maintain data quality
+- Used "PRIMARY KEY" for unique identification
+- Applied "NOT NULL", "UNIQUE", and "DEFAULT"
+- Practiced enforcing rules on table data
+
+---
 
 🔹 Day 7: SQL CRUD Operations
-Practiced the basic database operations known as CRUD:
-- CREATE – Creating tables and inserting records
-- READ – Retrieving data using "SELECT"
-- UPDATE – Modifying records using "UPDATE"
-- DELETE – Removing records using "DELETE"
-Worked with tables like employees, courses, products, students, and orders to perform these operations and understand how data is managed in SQL databases.
 
-
-🔹 Day 8 SQL Practice
-
-This repository contains SQL practice queries.
-Topics Covered:
-- String Functions
-- Date Functions
-- Data Insertion
-- Table Creation
-Functions Used:
-- CONCAT() – Combines two or more strings into one text.
-- UPPER() – Converts text into uppercase letters.
-- LOWER() – Converts text into lowercase letters.
-- SUBSTRING() – Extracts a part of a string.
-- LENGTH() – Returns the number of characters in a string.
-- YEAR() – Extracts the year from a date.
-- DATEDIFF() – Returns the number of days between two dates.
-- CURDATE() – Returns the current system date.
-
-🔹 Day 9 – SQL Functions Practice
-
-This project contains SQL queries that demonstrate the use of common SQL functions for working with employee data.
-
-Functions Used
-
-- UPPER() – Converts text to uppercase.
-- SUBSTRING() – Extracts part of a string.
-- ROUND() – Rounds a number to a specified decimal value.
-- YEAR() – Extracts the year from a date.
-- LENGTH() – Returns the number of characters in a string.
-- RIGHT() – Returns characters from the right side of a string.
-- FORMAT() – Formats numbers with decimal places.
-- IF() – Returns a value based on a condition.
-- TIMESTAMPDIFF() – Calculates the difference between two dates.
-
-  🔹 Day 10 – SQL functions Practice
-Topics covered:
-- Creating database and table
-- Inserting sample data
-- Aggregate functions ("SUM", "AVG", "COUNT", "MAX")
-- "GROUP BY" and "HAVING"
-- "SUBSTRING" function
-- "CASE" statement
-
-  🔹 Day 11 – SQL Analysis Practice
-Topics covered:
-- Creating database and table
-- Inserting sample data
-- Aggregate functions ("SUM", "AVG", "COUNT", "MAX")
-- "GROUP BY" and "HAVING"
-- "SUBSTRING" function
-- "CASE" statement
-
-- 🔹 Day 12 – SQL Subqueries Practice
-Topics covered:
-
-- Subqueries
-- Nested SELECT queries
-- IN and EXISTS
-- Filtering using subqueries
-
-🔹 Day 13 – SQL String Functions Practice
-Topics covered:
-
-- CONCAT()
-- UPPER() and LOWER()
-- LENGTH()
-- String manipulation
-
-🔹 Day 14 – SQL Date Functions Practice
-Topics covered:
-
-- NOW()
-- CURDATE()
-- DATEDIFF()
-- Working with date and time
-
-🔹 Day 15 – SQL Constraints Practice
-Topics covered:
-
-- PRIMARY KEY
-- FOREIGN KEY
-- NOT NULL
-- Data integrity rules
-
-🔹 Day 16 – SQL CRUD Practice
-Topics covered:
-
-- INSERT
-- UPDATE
-- DELETE
-- Basic data operations
-
-🔹 Day 17 – SQL Joins Practice
-Topics covered:
-
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
-- Subqueries
-- Views
-
-🔹 Day 18 – SQL Window Functions Practice
-Topics covered:
-
-- ROW_NUMBER()
-- RANK()
-- DENSE_RANK()
-- PARTITION BY
-- OVER clause
-
-🔹 Day 19 – SQL Interview Practice
-Topics covered:
-
-- Top N queries
-- Subqueries
-- MAX() and AVG()
-- LIMIT
-- Filtering and sorting
-
-
-🔹 Day 20 – SQL Joins & Interview Practice
-Topics covered:
-
-- INNER JOIN, LEFT JOIN, RIGHT JOIN
-- Combining multiple tables
-- GROUP BY with JOIN
-- HAVING clause with JOIN
-- Subqueries with JOIN
-- Finding highest and second highest values
-- Real-world employee & department analysis
+- Practiced CREATE, READ, UPDATE, DELETE operations
+- Worked on multiple tables like employees and products
+- Understood how data is managed in databases
 
 ---
 
-🔹 Day 21 – SQL Conditional Logic Practice
-Topics covered:
+🔹 Day 8: SQL Functions (String & Date)
 
-- CASE statement
-- Conditional categorization (salary, experience)
-- Aggregate functions (SUM, AVG, MAX)
-- GROUP BY
-- Subqueries
-- WHERE filtering
-- ORDER BY sorting
-- LIKE pattern matching
+- Used string functions like "CONCAT()", "UPPER()", "LOWER()", "SUBSTRING()", "LENGTH()"
+- Used date functions like "YEAR()", "DATEDIFF()", "CURDATE()"
+- Practiced transforming and formatting data
 
 ---
 
-🔹 Day 22 – SQL Advanced Joins & Analysis
-Topics covered:
+🔹 Day 9: Advanced Functions
 
-- INNER JOIN and LEFT JOIN
-- Finding customers without orders
-- GROUP BY with JOIN
-- HAVING clause
-- Aggregate functions (SUM, AVG, COUNT)
-- Subqueries for comparison
-- Sorting and ranking data
-- Real-world customer & orders analysis
+- Practiced functions like "ROUND()", "RIGHT()", "FORMAT()"
+- Used "IF()" for conditional logic
+- Used "TIMESTAMPDIFF()" for date calculations
+- Improved data formatting skills
 
-  
+---
+
+🔹 Day 10: SQL Analysis
+
+- Applied aggregate functions on real datasets
+- Used "GROUP BY" and "HAVING"
+- Implemented "CASE" for conditional results
+- Practiced data analysis queries
+
+---
+
+🔹 Day 11: SQL Analysis Practice
+
+- Strengthened aggregation and grouping concepts
+- Used "CASE" statements in queries
+- Worked with real-world data scenarios
+
+---
+
+🔹 Day 12: Subqueries
+
+- Learned how to write nested queries
+- Used "IN" and "EXISTS"
+- Filtered data using subqueries
+- Improved query logic
+
+---
+
+🔹 Day 13: String Functions
+
+- Practiced text manipulation using SQL functions
+- Used "CONCAT()", "UPPER()", "LOWER()", "LENGTH()"
+- Worked with string-based queries
+
+---
+
+🔹 Day 14: Date Functions
+
+- Used "NOW()" and "CURDATE()"
+- Calculated differences using "DATEDIFF()"
+- Worked with date and time data
+
+---
+
+🔹 Day 15: Constraints Practice
+
+- Applied "PRIMARY KEY", "FOREIGN KEY", "NOT NULL"
+- Understood relationships between tables
+- Practiced maintaining data integrity
+
+---
+
+🔹 Day 16: CRUD Practice
+
+- Performed INSERT, UPDATE, DELETE operations
+- Practiced modifying and managing data
+
+---
+
+🔹 Day 17: Joins
+
+- Learned how to combine tables using joins
+- Used "INNER JOIN", "LEFT JOIN", "RIGHT JOIN"
+- Created views using "CREATE VIEW"
+- Worked with relational data
+
+---
+
+🔹 Day 18: Window Functions
+
+- Learned ranking functions: "ROW_NUMBER()", "RANK()", "DENSE_RANK()"
+- Used "PARTITION BY" to group data
+- Performed advanced analysis
+
+---
+
+🔹 Day 19: SQL Practice
+
+- Solved interview-level queries
+- Used "LIMIT", "MAX()", "AVG()"
+- Practiced subqueries and filtering
+
+---
+
+🔹 Day 20: Joins & Advanced Queries
+
+- Combined multiple tables
+- Used "GROUP BY" with joins
+- Applied "HAVING" with joins
+- Solved real-world problems
+
+---
+
+🔹 Day 21: Conditional Logic
+
+- Used "CASE" statements for decision making
+- Applied "WHERE" conditions
+- Sorted results using "ORDER BY"
+- Used "LIKE" for pattern matching
+
+---
+
+🔹 Day 22: Advanced Analysis
+
+- Performed customer and order analysis
+- Used joins with aggregation
+- Applied "HAVING" and subqueries
+- Built real-world analytical queries
+
+---
+
+🔹 Day 23: CTE (Common Table Expression)
+
+- Learned to use "WITH" clause for temporary results
+- Simplified complex queries
+- Improved readability and structure of queries
+
+---
+
+🔹 Day 24: Index
+
+- Created indexes using "CREATE INDEX"
+- Understood how indexing improves performance
+- Learned faster data retrieval techniques
+
+---
+
+🔹 Day 25: Transactions
+
+- Controlled database operations using transactions
+- Used "START TRANSACTION"
+- Applied "COMMIT" to save changes
+- Used "ROLLBACK" to undo changes
+
+---
+
+🔹 Day 26: NULL Handling
+
+- Worked with missing values using "NULL"
+- Used "IS NULL" and "IS NOT NULL"
+- Replaced NULL values using "COALESCE()"
+- Managed incomplete data
+
+---
+
+🔹 Day 27: Stored Procedure
+
+- Created procedures using "CREATE PROCEDURE"
+- Built reusable SQL logic
+- Executed procedures using "CALL"
+- Reduced repetition in queries
+
+---
+
 🛠️ Tools Used
-Database: MySQL
-Environment: GitHub Web Editor / VS Code
+
+- Database: MySQL
+- Environment: VS Code / GitHub
+
+---

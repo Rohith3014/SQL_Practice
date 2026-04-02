@@ -242,6 +242,43 @@ I am currently learning SQL step-by-step. This repository serves as a live docum
 
 ---
 
+🔹 Day 28: Triggers
+- Learned how triggers execute automatically on events
+- Created triggers using "CREATE TRIGGER"
+- Used "BEFORE" and "AFTER" with INSERT, UPDATE, DELETE
+- Understood automatic validation and logging
+
+---
+
+  
+🔹 Day 29: Views
+- Created virtual tables using "CREATE VIEW"
+- Used SELECT queries inside views
+- Retrieved data from views like normal tables
+- Simplified complex queries and improved readability
+
+---
+
+  
+🔹 Day 30: Query Optimization
+- Learned how to improve query performance
+- Used "INDEX" for faster searching
+- Avoided "SELECT *" for better efficiency
+- Used "WHERE" and "LIMIT" to reduce data load
+
+--- 
+
+  
+🔹 Day 31: Normalization
+- Learned how to organize data into multiple tables
+- Removed duplicate data (data redundancy)
+- Used "PRIMARY KEY" and "FOREIGN KEY" for relationships
+- Improved data consistency and structure
+
+
+---
+
+
 🛠️ Tools Used
 
 - Database: MySQL

@@ -1,13 +1,13 @@
-📊 SQL Learning Journey
+SQL Learning Journey
 
 «"The goal is to turn data into information, and information into insight."»
 
-Hi!!! 👋
+Hi!!! 
 I am currently learning SQL step-by-step. This repository serves as a live documentation of my progress, scripts, and daily learnings.
 
 ---
 
-📅 Learning Roadmap
+ Learning Roadmap
 
 ---
 

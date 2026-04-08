@@ -62,4 +62,4 @@ GROUP BY city;
 SELECT city, COUNT(*) AS total_students
 FROM students
 GROUP BY city
-HAVING COUNT(*) > 2;
+HAVING COUNT(*) > 2;-- updated

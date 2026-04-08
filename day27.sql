@@ -23,4 +23,4 @@ END //
 
 DELIMITER ;
 
-CALL get_high_salary();
+CALL get_high_salary();-- updated

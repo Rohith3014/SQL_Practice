@@ -68,4 +68,4 @@ SELECT * FROM employees
 ORDER BY experience DESC, salary DESC;
 
 SELECT * FROM employees
-WHERE name LIKE 'S%';
+WHERE name LIKE 'S%';-- updated

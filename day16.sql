@@ -105,4 +105,4 @@ WHERE student_id = 3;
 
 -- Delete Example (marks < 70)
 DELETE FROM marks
-WHERE marks < 70;
+WHERE marks < 70;-- updated

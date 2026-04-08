@@ -29,4 +29,4 @@ INSERT INTO students VALUES
 SELECT students.name, departments.department_name
 FROM students
 JOIN departments
-ON students.department_id = departments.department_id;
+ON students.department_id = departments.department_id;-- updated

@@ -91,4 +91,4 @@ WHERE name LIKE '%a%';
 
 -- 10. Order by salary descending
 SELECT * FROM employees
-ORDER BY salary DESC;
+ORDER BY salary DESC;-- updated

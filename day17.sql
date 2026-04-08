@@ -113,4 +113,4 @@ FROM students
 WHERE marks > 80;
 
 -- Show View
-SELECT * FROM top_students;
+SELECT * FROM top_students;-- updated

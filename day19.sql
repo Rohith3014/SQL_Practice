@@ -68,4 +68,4 @@ WHERE name LIKE 'R%';
 
 -- 10. Sort by department then salary
 SELECT * FROM employees
-ORDER BY department, salary DESC;
+ORDER BY department, salary DESC;-- updated

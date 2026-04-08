@@ -86,4 +86,4 @@ FROM customers c
 JOIN orders o
 ON c.customer_id = o.customer_id
 GROUP BY c.name
-ORDER BY total DESC;
+ORDER BY total DESC;-- updated

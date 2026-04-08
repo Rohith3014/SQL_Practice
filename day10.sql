@@ -77,4 +77,4 @@ FROM sales;
 SELECT city, SUM(amount) AS total_sales
 FROM sales
 GROUP BY city
-HAVING SUM(amount) > 50000;
+HAVING SUM(amount) > 50000;-- updated

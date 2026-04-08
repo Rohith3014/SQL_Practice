@@ -46,4 +46,4 @@ WHERE emp_id = 1;
 
 -- View data
 SELECT * FROM employees;
-SELECT * FROM salary_log;
+SELECT * FROM salary_log;-- updated

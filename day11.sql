@@ -58,4 +58,4 @@ SELECT c.name, AVG(o.amount) AS avg_order
 FROM customers c
 JOIN orders o
 ON c.customer_id = o.customer_id
-GROUP BY c.name;
+GROUP BY c.name;-- updated

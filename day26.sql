@@ -27,4 +27,4 @@ SELECT name FROM employees
 WHERE salary > 50000
 UNION
 SELECT name FROM employees
-WHERE salary < 50000;
+WHERE salary < 50000;-- updated

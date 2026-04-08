@@ -32,4 +32,4 @@ LIMIT 3;
 SELECT * FROM employees;
 
 -- View data
-SELECT * FROM employees;
+SELECT * FROM employees;-- updated

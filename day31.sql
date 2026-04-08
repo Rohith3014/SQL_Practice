@@ -35,4 +35,4 @@ INSERT INTO orders VALUES
 SELECT o.order_id, c.name, p.name
 FROM orders o
 JOIN customers c ON o.customer_id = c.id
-JOIN products p ON o.product_id = p.id;
+JOIN products p ON o.product_id = p.id;-- updated

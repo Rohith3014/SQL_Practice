@@ -32,4 +32,4 @@ WHERE emp_id = 1;
 
 COMMIT;
 
-SELECT * FROM employees;
+SELECT * FROM employees;-- updated

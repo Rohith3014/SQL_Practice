@@ -21,4 +21,4 @@ INSERT INTO employees VALUES
 CREATE INDEX idx_name ON employees(name);
 
 SELECT * FROM employees
-WHERE name = 'Rohith';
+WHERE name = 'Rohith';-- updated

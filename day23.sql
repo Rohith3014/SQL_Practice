@@ -27,4 +27,4 @@ SELECT e.name, e.department, e.salary
 FROM employees e
 JOIN avg_salary a
 ON e.department = a.department
-WHERE e.salary > a.avg_sal;
+WHERE e.salary > a.avg_sal;-- updated

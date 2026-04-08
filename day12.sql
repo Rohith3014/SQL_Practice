@@ -47,4 +47,4 @@ ON customers.customer_id = orders.customer_id;
 SELECT customers.name, orders.product
 FROM customers
 RIGHT JOIN orders
-ON customers.customer_id = orders.customer_id;
+ON customers.customer_id = orders.customer_id;-- updated
